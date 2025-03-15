@@ -1,6 +1,7 @@
 ---
 title: "Homeworks"
-layout: tags
+layout: categories
 permalink: /homeworks/
 author_profile: true
 ---
+
