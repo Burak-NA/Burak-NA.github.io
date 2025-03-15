@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Burak Nezir Albaha"
   avatar : "/assets/images/CamScanner 30.09.2024 16.53.jpg"
-  bio    : "Undergraduate student in Electrical-Electronics Engineering, Hacettepe University. Student No: 2230357054"
+  bio    : "Undergraduate student in Electrical-Electronics Engineering, Hacettepe University. Other student information can be found in the About page."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
