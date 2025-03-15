@@ -1,7 +1,7 @@
 ---
-title: "Homeworks"
+title: "Homeworks and Projects"
 layout: tags
-permalink: /homeworks/
+permalink: /hws&projects/
 author_profile: true
 ---
 
