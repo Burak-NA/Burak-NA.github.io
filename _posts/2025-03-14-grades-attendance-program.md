@@ -1,38 +1,40 @@
 ---
-title: "Grades Attendance Program"
-date: 2025-03-14T16:34:30-04:00
+title: "HW1-Q2"
+date: 2025-03-15T14:34:30
 tags:
-  - Week 4
+  - HW1
 ---
 
-This is a program that says whether the student pass or failed the lecture.
-
+The mistakes explained at line 9,12 and 16
   
 ```c
+/* Addition program */
 #include <stdio.h>
-#include <stdlib.h>
 
-int main () {
-	
-	int grade,attendance;
-	
-	printf("Enter how many weeks you attended to this lecture>");
-	scanf("%d", &attendance);
+/* function main begins program execution */
+int main( void )
+{
+   int integer1; /* first number to be input by user  */
+   int integer2; /* second number to be input by user */
+   //Mistake 1> While defining integers, the line must end with a semicolomn.
+   
+   int sum;      /* variable in which sum will be stored */ 
+   //Mistake 2> The variable 'sum' wasn't defined in the program.
 
-	if(attendance <= 5){
-		printf("You failed the lecture!");
-		abort();
-	}
-	else{ 
-	   printf("Enter your grade>");
-		scanf("%d", &grade);	
-		if((grade>=60 && attendance>=8) || (grade>=70 && attendance>=6))
-			printf("You passed the lecture!");
-		else     
-			printf("You failed the lecture.");
-}
 
-	return 0;
-}
+   printf( "Enter first integer\n" ); /* prompt */ 
+   //Mistake 3> There must be quotation marks inside the paranthesis in printf function.
+
+   scanf( "%d", &integer1 );        /* read an integer */
+
+   printf( "Enter second integer\n" ); /* prompt */
+   scanf( "%d", &integer2 );           /* read an integer */
+   
+   sum = integer1 + integer2; /* assign total to sum */
+
+   printf( "Sum is %d\n", sum ); /* print sum */
+   return 0; /* indicate that program ended successfully */
+
+} /* end function main */
 
 ```
