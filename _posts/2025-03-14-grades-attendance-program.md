@@ -1,5 +1,5 @@
 ---
-title: "Grades"
+title: "Grades Attendance Program"
 date: 2025-03-14T16:34:30-04:00
 categories:
   - homeworks
