@@ -1,4 +1,5 @@
 main:
   - title: "Homeworks"
     url: /homeworks/
-  
+  title: "Projects"
+    url: /projects/
