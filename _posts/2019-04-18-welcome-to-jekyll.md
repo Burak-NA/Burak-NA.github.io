@@ -14,12 +14,33 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	int grade,attendance;
+	
+	printf("Enter how many weeks you attended to this lecture>");
+	scanf("%d", &attendance);
+
+	if(attendance <= 5){
+		printf("You failed the lecture!");
+		abort();
+	}
+	else{ 
+	   printf("Enter your grade>");
+		scanf("%d", &grade);	
+		if((grade>=60 && attendance>=8) || (grade>=70 && attendance>=6))
+			printf("You passed the lecture!");
+		else     
+			printf("You failed the lecture.");
+}
+
+	return 0;
+}
+
 ```
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
