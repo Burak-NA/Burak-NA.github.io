@@ -1,6 +1,11 @@
 ---
-title: " Grades Attendance Program!"
-date: `2025-03-14`
+title: "Grades"
+date: 2025-13-14T16:00:00-04:00
+categories:
+  - homeworks
+tags:
+  - c
+  - program
 ---
 
 This is a program that says whether the student pass or failed the lecture.
