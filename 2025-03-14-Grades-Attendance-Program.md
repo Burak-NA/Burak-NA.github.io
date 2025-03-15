@@ -1,6 +1,6 @@
 ---
 title: "Grades - Attendance Program!"
-date: `2025-03-14-Grades - Attendance Program!.ext`
+date: `2025-03-14`
 ---
 
 This is a program.
