@@ -1,4 +1,9 @@
 main:
-  - title: "Homeworks and Projects"
-    url: /hws&projects/
-
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
