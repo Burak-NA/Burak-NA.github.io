@@ -4,8 +4,7 @@ date: 2025-03-14T16:34:30-04:00
 categories:
   - homeworks
 tags:
-  - c
-  - program
+  - homeworks
 ---
 
 This is a program that says whether the student pass or failed the lecture.
