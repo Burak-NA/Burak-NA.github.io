@@ -1,9 +1,9 @@
 ---
-title: "Grades - Attendance Program!"
+title: "Grades-Attendance-Program"
 date: `2025-03-14`
 ---
 
-This is a program.
+This is a program that says whether the student pass or failed the lecture.
 
   
 ```c
